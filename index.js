@@ -28,7 +28,7 @@ function lakukanLooping(arrPegawai) {
   for (let i = 0; i < dataYangAkanDilooping.length; i++) {
     hasilLooping.push(
       dataYangAkanDilooping[i].namaDepan +
-        "" +
+        " " +
         dataYangAkanDilooping[i].namaBelakang
     );
   }
